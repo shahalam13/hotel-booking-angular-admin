@@ -25,7 +25,7 @@ Cyclone is a Responsive Material Admin Dashboard and written with Angular 9 and 
 
 Want to see Cyclone in action?
 
-[View ](https://shahalam13.github.io/hotel-booking-angular-admin)
+[Demo](https://shahalam13.github.io/hotel-booking-angular-admin)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
