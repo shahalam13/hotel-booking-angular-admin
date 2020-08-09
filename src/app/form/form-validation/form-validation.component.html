@@ -51,14 +51,14 @@
                         </div>
                         <div class="form-group">
                             <label for="url">Email</label>
-                            <input type="text" class="form-control" ngModel name="url" #url="ngModel" placeholder="url"
+                            <input type="text" class="form-control" ngModel name="url" #url="ngModel" placeholder="Email"
                                 url />
                             <small class="form-text text-danger" *ngIf="url.errors?.url">hotel@ymail.com</small>
                         </div>
                         <div class="form-group">
                             <label for="uuid">Tax id</label>
                             <input type="text" class="form-control" ngModel name="uuid" #uuid="ngModel"
-                                placeholder="uuid" uuid />
+                                placeholder="Tax id" uuid />
                             <small class="form-text text-danger" *ngIf="uuid.errors?.uuid">Tax  id</small>
                         </div>
                     </form>
