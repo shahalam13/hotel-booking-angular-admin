@@ -11,10 +11,10 @@ export const TablesRoutes: Routes = [
                 path: 'datatable',
                 component: DatatableComponent,
                 data: {
-                    title: 'Data Table',
+                    title: 'Guest List',
                     urls: [
                         { title: 'Dashboard', url: '/dashboard' },
-                        { title: 'Data Table' }
+                        { title: 'Guest List' }
                     ]
                 }
             },
@@ -22,10 +22,10 @@ export const TablesRoutes: Routes = [
                 path: 'basictable',
                 component: BasicComponent,
                 data: {
-                    title: 'Basic Table',
+                    title: 'Rooms Booking  List ',
                     urls: [
                         { title: 'Dashboard', url: '/dashboard' },
-                        { title: 'Basic Table' }
+                        { title: 'Rooms Booking  List' }
                     ]
                 }
             }
