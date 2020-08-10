@@ -95,17 +95,38 @@ export const ROUTES: RouteInfo[] = [
         extralink: false,
         submenu: []
     },
-    {
-        path: '/component/notifier',
-        title: 'Employee',
-        icon: 'icon-user-follow',
-        class: '',
-        label: '',
-        labelClass: '',
-        extralink: false,
-        submenu: []
-},
 
+{
+    path: '',
+    title: 'Employee',
+    icon: 'icon-user-follow',
+    class: '',
+    label: '',
+    labelClass: '',
+    extralink: false,
+    submenu: [
+        {
+            path: '/forms/multiselect',
+            title: 'Add Employee',
+            icon: '',
+            class: '',
+            label: '',
+            labelClass: '',
+            extralink: false,
+            submenu: []
+        },
+        {
+            path: '/component/notifier',
+            title: 'Employee List',
+            icon: '',
+            class: '',
+            label: '',
+            labelClass: '',
+            extralink: false,
+            submenu: []
+        }
+    ]
+},
 
 
         {

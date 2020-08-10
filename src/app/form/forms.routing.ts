@@ -34,10 +34,10 @@ export const FormsRoutes: Routes = [
                 path: 'multiselect',
                 component: MultiselectComponent,
                 data: {
-                    title: 'Multiselect',
+                    title: 'Add Employee',
                     urls: [
                         { title: 'Dashboard', url: '/dashboard' },
-                        { title: 'Multiselect' }
+                        { title: 'Add Employee' }
                     ]
                 }
             },
