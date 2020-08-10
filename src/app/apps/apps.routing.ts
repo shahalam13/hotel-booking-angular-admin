@@ -12,7 +12,7 @@ export const AppsRoutes: Routes = [
         path: 'taskboard',
         component: TaskboardComponent,
         data: {
-          title: 'Check List',
+          title: 'TasK List',
           urls: [
             { title: 'Dashboard', url: '/dashboard' },
             { title: 'Taskboard' }

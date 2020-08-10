@@ -12,10 +12,10 @@ export const FormsRoutes: Routes = [
                 path: 'formbasic',
                 component: BasicComponent,
                 data: {
-                    title: 'Basic Form',
+                    title: 'Room Booking',
                     urls: [
                         { title: 'Dashboard', url: '/dashboard' },
-                        { title: 'Basic Form' }
+                        { title: 'Room Booking' }
                     ]
                 }
             },
