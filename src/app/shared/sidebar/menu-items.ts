@@ -49,7 +49,7 @@ export const ROUTES: RouteInfo[] = [
     {
         path: '/apps/taskboard',
         title: 'Task List',
-        icon: 'mdi mdi-gauge',
+        icon: 'icon-list',
         class: '',
         label: '',
         labelClass: 'label label-rouded label-themecolor',
@@ -62,7 +62,7 @@ export const ROUTES: RouteInfo[] = [
     {
         path: '/apps/fullcalendar',
         title: 'Event Booking',
-        icon: 'mdi mdi-gauge',
+        icon: 'icon-calender',
         class: '',
         label: '',
         labelClass: 'label label-rouded label-themecolor',
@@ -75,7 +75,7 @@ export const ROUTES: RouteInfo[] = [
     {
         path: '/widgets',
         title: 'Room List',
-        icon: 'mdi mdi-gauge',
+        icon: 'icon-home',
         class: '',
         label: '',
         labelClass: 'label label-rouded label-themecolor',
@@ -83,14 +83,11 @@ export const ROUTES: RouteInfo[] = [
         extralink: false,
         submenu: []
     },
-
-
-    
 
     {
         path: '/tables/datatable',
         title: 'Guest List',
-        icon: 'mdi mdi-gauge',
+        icon: 'icon-people',
         class: '',
         label: '',
         labelClass: 'label label-rouded label-themecolor',
@@ -98,11 +95,23 @@ export const ROUTES: RouteInfo[] = [
         extralink: false,
         submenu: []
     },
+    {
+        path: '/component/notifier',
+        title: 'Employee',
+        icon: 'icon-user-follow',
+        class: '',
+        label: '',
+        labelClass: '',
+        extralink: false,
+        submenu: []
+},
+
+
 
         {
         path: '/forms/formvalidation',
         title: 'Settings',
-        icon: 'mdi mdi-gauge',
+        icon: 'icon-settings',
         class: '',
         label: '',
         labelClass: 'label label-rouded label-themecolor',
@@ -520,16 +529,6 @@ export const ROUTES: RouteInfo[] = [
     //         {
     //             path: '/icons/simpleline',
     //             title: 'Simple Line Icons',
-    //             icon: '',
-    //             class: '',
-    //             label: '',
-    //             labelClass: '',
-    //             extralink: false,
-    //             submenu: []
-    //         },
-    //         {
-    //             path: '/icons/material',
-    //             title: 'Material Icons',
     //             icon: '',
     //             class: '',
     //             label: '',

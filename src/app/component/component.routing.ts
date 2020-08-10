@@ -219,11 +219,11 @@ export const ComponentsRoutes: Routes = [
 				path: 'notifier',
 				component: NotifierComponent,
 				data: {
-					title: 'Notifier',
+					title: 'Employee',
 					urls: [
 						{ title: 'Dashboard', url: '/dashboard' },
-						{ title: 'ngComponent' },
-						{ title: 'Notifier' }
+						{ title: 'Employee' },
+						{ title: 'Employee' }
 					]
 				}
 			},
